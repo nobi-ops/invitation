@@ -109,6 +109,14 @@ body {
     filter: brightness(0.95) saturate(1.1);
 }
 
+@media (max-width: 768px) {
+    .photo-item img {
+        height: auto;
+        object-fit: contain;
+        background: #ffffff;
+    }
+}
+
 .photo-item:hover img {
     filter: brightness(1) saturate(1.2);
     transform: scale(1.03);
@@ -172,7 +180,9 @@ body {
     }
     
     .photo-item img {
-        height: 400px;
+        height: auto;
+        object-fit: contain;
+        background: #ffffff;
     }
     
     .header {
@@ -197,7 +207,9 @@ body {
     }
     
     .photo-item img {
-        height: 350px;
+        height: auto;
+        object-fit: contain;
+        background: #ffffff;
     }
     
     .container {
