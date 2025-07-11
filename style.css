@@ -98,8 +98,8 @@ body {
 
 @media (max-width: 768px) {
     .photo-item {
-        overflow: visible;
-        height: auto;
+        overflow: visible !important;
+        height: auto !important;
     }
 }
 
@@ -118,9 +118,10 @@ body {
 
 @media (max-width: 768px) {
     .photo-item img {
-        height: auto;
-        object-fit: contain;
+        height: auto !important;
+        object-fit: contain !important;
         background: #ffffff;
+        max-height: none !important;
     }
 }
 
@@ -187,9 +188,10 @@ body {
     }
     
     .photo-item img {
-        height: auto;
-        object-fit: contain;
+        height: auto !important;
+        object-fit: contain !important;
         background: #ffffff;
+        max-height: none !important;
     }
     
     .header {
@@ -214,9 +216,10 @@ body {
     }
     
     .photo-item img {
-        height: auto;
-        object-fit: contain;
+        height: auto !important;
+        object-fit: contain !important;
         background: #ffffff;
+        max-height: none !important;
     }
     
     .container {
